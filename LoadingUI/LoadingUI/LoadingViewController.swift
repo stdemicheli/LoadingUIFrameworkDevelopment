@@ -37,7 +37,7 @@ public class LoadingViewController: UIViewController {
     }
     
     public func stopAnimating() {
-        indeterminateLoadingView.startAnimating()
+        indeterminateLoadingView.stopAnimating()
     }
     
     // MARK: - Private
