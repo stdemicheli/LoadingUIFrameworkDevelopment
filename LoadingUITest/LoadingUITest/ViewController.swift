@@ -10,12 +10,16 @@ import UIKit
 import LoadingUI
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-
+    @IBAction func tapOnButton(_ sender: Any) {
+        
+    }
+    
+    
 }
 

@@ -15,6 +15,7 @@
 		3DE236D02152DD66003DEF74 /* LoadingUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE236CF2152DD66003DEF74 /* LoadingUITestTests.swift */; };
 		3DE236F12152DD9D003DEF74 /* LoadingUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE236EE2152DD97003DEF74 /* LoadingUI.framework */; };
 		3DE236F22152DD9D003DEF74 /* LoadingUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE236EE2152DD97003DEF74 /* LoadingUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3DE236FE2152EC73003DEF74 /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE236FD2152EC73003DEF74 /* LoadingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		3DE236CF2152DD66003DEF74 /* LoadingUITestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingUITestTests.swift; sourceTree = "<group>"; };
 		3DE236D12152DD66003DEF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DE236DA2152DD73003DEF74 /* LoadingUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoadingUI.xcodeproj; path = ../../../LoadingUI/LoadingUI.xcodeproj; sourceTree = "<group>"; };
+		3DE236FD2152EC73003DEF74 /* LoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				3DE236BA2152DD65003DEF74 /* AppDelegate.swift */,
 				3DE236BC2152DD65003DEF74 /* ViewController.swift */,
+				3DE236FD2152EC73003DEF74 /* LoadingVC.swift */,
 				3DE236BE2152DD65003DEF74 /* Main.storyboard */,
 				3DE236C12152DD66003DEF74 /* Assets.xcassets */,
 				3DE236C32152DD66003DEF74 /* LaunchScreen.storyboard */,
@@ -281,6 +284,7 @@
 			files = (
 				3DE236BD2152DD65003DEF74 /* ViewController.swift in Sources */,
 				3DE236BB2152DD65003DEF74 /* AppDelegate.swift in Sources */,
+				3DE236FE2152EC73003DEF74 /* LoadingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
